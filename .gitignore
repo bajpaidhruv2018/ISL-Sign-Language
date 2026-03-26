@@ -1,0 +1,14 @@
+# Ignore the dataset folder
+data/
+dataset/
+
+# Ignore saved PyTorch and Scikit-Learn model weights
+*.pth
+*.pt
+*.pkl
+
+# Ignore Python cache and environment files
+__pycache__/
+.venv/
+venv/
+.ipynb_checkpoints/
