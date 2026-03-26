@@ -38,11 +38,3 @@ cd ISL-Sign-Language
 
 ---
 
-### **Quick Tip for your Git Upload:**
-Since you mentioned you don't want to push the 100MB+ dataset, make sure you run these commands in order:
-
-1. `git add README.md .gitignore data_builder.py run_isl.py`
-2. `git commit -m "Initial commit with ISL recognition scripts"`
-3. `git push origin main`
-
-**Would you like me to help you write the `.gitignore` file as well so you don't accidentally upload those 228k images?**
